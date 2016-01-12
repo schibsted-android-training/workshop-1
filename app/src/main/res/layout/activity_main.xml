@@ -24,8 +24,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="32dp"
-            android:padding="32dp"
+            android:layout_margin="@dimen/gap_xlarge"
+            android:padding="@dimen/gap_xlarge"
             android:text="@string/tap_me" />
     </LinearLayout>
 </RelativeLayout>
