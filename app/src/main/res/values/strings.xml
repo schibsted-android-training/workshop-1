@@ -2,4 +2,5 @@
     <string name="app_name">Introducing Android</string>
 
     <string name="hello_world">Hello World!</string>
+    <string name="tap_me">Tap me!</string>
 </resources>
