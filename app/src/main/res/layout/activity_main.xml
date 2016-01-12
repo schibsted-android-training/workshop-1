@@ -28,5 +28,10 @@
             android:layout_margin="@dimen/gap_xlarge"
             android:padding="@dimen/gap_xlarge"
             android:text="@string/tap_me" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schibsted_android_training" />
     </LinearLayout>
 </RelativeLayout>
