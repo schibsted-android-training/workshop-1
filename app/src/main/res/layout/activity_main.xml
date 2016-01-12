@@ -9,6 +9,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.schibsted.introducingandroid.MainActivity">
 
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/bt_load_picture_from_internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/load_picture_from_internet" />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
