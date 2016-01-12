@@ -39,6 +39,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 ImageView backgroundIV = (ImageView) findViewById(R.id.iv_background);
                 Picasso.with(MainActivity.this).load("http://i.imgur.com/DvpvklR.png").into(backgroundIV);
+
+                view.setVisibility(View.GONE);
+                view.startAnimation(AnimationUtils.loadAnimation(MainActivity.this, android.R.anim.fade_out));
+
+                View centralLayout = findViewById(R.id.l_central);
+                centralLayout.setVisibility(View.GONE);
+                centralLayout.startAnimation(AnimationUtils.loadAnimation(MainActivity.this, android.R.anim.fade_out));
             }
         });
     }

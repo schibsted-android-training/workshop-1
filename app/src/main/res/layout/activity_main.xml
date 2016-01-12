@@ -19,6 +19,7 @@
         android:text="@string/load_picture_from_internet" />
 
     <LinearLayout
+        android:id="@+id/l_central"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
