@@ -30,6 +30,7 @@
             android:text="@string/tap_me" />
 
         <ImageView
+            android:id="@+id/iv_example"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/schibsted_android_training" />
