@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                button.setText(R.string.you_tapped_me);
+                String text = getString(R.string.you_tapped_me);
+                button.setText(text);
             }
         });
     }
