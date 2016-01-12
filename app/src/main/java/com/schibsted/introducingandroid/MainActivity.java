@@ -20,7 +20,11 @@ public class MainActivity extends AppCompatActivity {
                 String text = getString(R.string.you_tapped_me);
                 button.setText(text);
 
-                image.setVisibility(View.INVISIBLE);
+                if (image.getVisibility() == View.VISIBLE) {
+                    image.setVisibility(View.INVISIBLE);
+                } else {
+                    image.setVisibility(View.VISIBLE);
+                }
             }
         });
     }
